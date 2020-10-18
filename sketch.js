@@ -143,7 +143,7 @@ function bananas(){
       banana.velocityX = -(5+score/200);  
       banana.addImage(bananaImage);
       banana.scale = 0.1
-      banana.lifetime = 125;
+      banana.lifetime = (windowWidth/score+5);
       bananaGroup.add(banana);
     }
 }
